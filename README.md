@@ -19,5 +19,5 @@ The extracted features are fed into different classfiers like Naive-bayes, Logis
 #### Prediction.py
 Our finally selected and best performnig classifer was ```Logistic Regression``` which was then saved on disk with name ```final_model.sav```. This model will be used by prediction.py file to classify the fake news. It takes a news statement or an image as input from user and displays the final classification output.
 
-#### Bot.py
+#### Bot
 A whatsapp bot is also integrated to the model that can take and process the sender's texts. The model performs the specified detection and the bot shares the result back to the sender.
